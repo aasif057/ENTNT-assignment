@@ -22,7 +22,7 @@ const UpperNavbar = () => {
                             <Link to="/product" className="nav-link">Product Management</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/calendar" className="nav-link">Order Calendar</Link>
+                            <Link to="/calender" className="nav-link">Order Calendar</Link>
                         </li>
                         </ul>
                     </div>
