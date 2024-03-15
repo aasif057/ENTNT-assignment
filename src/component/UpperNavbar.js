@@ -12,18 +12,18 @@ const UpperNavbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/product">Product Management</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/orders">Order Management</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="/calender">Order Calender</a>
-                            </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-link">Dashboard</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/orders" className="nav-link">Order Management</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/product" className="nav-link">Product Management</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/calendar" className="nav-link">Order Calendar</Link>
+                        </li>
                         </ul>
                     </div>
                 </div>
