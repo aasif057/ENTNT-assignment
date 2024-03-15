@@ -16,10 +16,13 @@ const UpperNavbar = () => {
                                 <a className="nav-link active" aria-current="page" href="#">Dashboard</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Product Management</a>
+                                <a className="nav-link" href="/product">Product Management</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Order Management</a>
+                                <a className="nav-link" href="/orders">Order Management</a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="/calender">Order Calender</a>
                             </li>
                         </ul>
                     </div>
